@@ -11,7 +11,7 @@ I can Upload Any Link in File or Video except Drm Protected Links
 
 Use Help Button to Know How to Use me
 
-Made With 💕 By @Tellybots
+Made With 💕 By @cinemacollections
 """
     HELP_TEXT = """
 Link to Media or File
@@ -26,32 +26,28 @@ Deleting Thumbnail
 Show Thumbnail
 ➠ Send /showthumb to view custom thumbnail.
 
-Made With 💕 By @Tellybots
+Made With 💕 By @cinemacollections
 """
     ABOUT_TEXT = """
- **🤖 Bot :** Url Uploader\n
- **👲 Developer :** [Tellybots](https://telegram.me/tellybots)\n
- **👥 Channel :** [Tellybots](https://telegram.me/tellybots)\n
- **❄️ Credits :** Everyone in this journey\n
- **🍴 Source :** [Click here](https://t.me/tellybots_digital)\n
- **📝 Language :** [Python3](https://python.org)\n
- **📚 Library :** [Pyrogram v1.2.0](https://pyrogram.org)\n
- **🌟 Server :** [Heroku](https://heroku.com)\n
+ **Bot :** Url Uploader\n
+ **Developer :** [DhashamoolamDhamu](https://telegram.me/DhashamoolamDhamu)\n
+ **Channel :** [cinemacollections](https://telegram.me/cinemacollections)\n
+ **Credits :** Everyone in this journey\n
+ **Language :** [Python3](https://python.org)\n
+ **Library :** [Pyrogram v1.2.0](https://pyrogram.org)\n
+ **Server :** [Heroku](https://heroku.com)\n
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tellybots'),
-        InlineKeyboardButton('💬 Support', url='https://telegram.me/tellybots_support')
-        ],[
-        InlineKeyboardButton('❔ Help', callback_data='help'),
-        InlineKeyboardButton('⛔ Close', callback_data='close')
+        InlineKeyboardButton('Help', callback_data='help'),
+        InlineKeyboardButton(' Close', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏡 Home', callback_data='home'),
-        InlineKeyboardButton('👲 About', callback_data='about'),
-        InlineKeyboardButton('⛔ Close', callback_data='close')
+        InlineKeyboardButton(' Home', callback_data='home'),
+        InlineKeyboardButton(' About', callback_data='about'),
+        InlineKeyboardButton(' Close', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -69,12 +65,12 @@ Made With 💕 By @Tellybots
     FORMAT_SELECTION = "Now Select The Desired Format or File 🗄️ Size to Upload"
     SET_CUSTOM_USERNAME_PASSWORD = """"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_FILE = "📥 Downloading  File "
+    DOWNLOAD_FILE = "⏳ Downloading  File "
     UPLOAD_FILE = " UploadinG 📤 \n\n To  transfer.sh "
     ANNO_UPLOAD = " UploadinG📤 \n\n To  anonfiles.com "
     BAY_UPLOAD = " UploadinG📤 \n\n To  bayfiles.com "
     GO_FILE_UPLOAD = " 📤UploadinG📤 \n\n To  gofile.io "
-    DOWNLOAD_START = "📄 Please Wait Until It's Completed ⏳\n\n📥 Downloading started..."
+    DOWNLOAD_START = "📄 Please Wait Until It's Completed \n\n⏳ Downloading started..."
     UPLOAD_START = "📤 Uploading Please Wait..."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
